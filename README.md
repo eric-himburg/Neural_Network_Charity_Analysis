@@ -1,6 +1,6 @@
 # Neural Network Charity Analysis
 ## Overview of the Analysis
-Deep neural networks were used to help predict where to make investments.  A dataset containing more than 34,000 organizations was pre-processed using a binary classifier.  The data was trained, tested and evaluated in order to create an accurate predicting model.  The input data and model parameters were changed several times in order to achieve the highest accuracy.   
+Deep neural networks were used to help predict where to make investments.  A dataset containing more than 34,000 charity organizations was pre-processed using a binary classifier.  The data was trained, tested and evaluated in order to create an accurate predicting model.  The input data and model parameters were changed several times in order to achieve the highest accuracy.   
 
 ## Results
 ### Data Preprocessing
