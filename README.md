@@ -9,11 +9,18 @@ Deep neural networks were used to help predict where to make investments.  A dat
 * The data which was neither a target nor a feature and which was ultimately dropped from the data included: "EIN" and "NAME".  These were identification data and were not relevant to making a prediction.  
 
 ### Compiling, Training, and Evaluating the Model
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-* Were you able to achieve the target model performance?
+* Given 43 input features and 1 output model, a median amount of nuerons of 22 selected for the first hidden layer.  16 were selected for the second hidden layer.  As a rule of thumb the number of neurons selected should be less than the number of input features and more than the output layer, and a good starting point is the median of the two.  The second hidden layer should have less neurons than the first.  
+* The target model performance of 75% was not achieved.   A variety of activation functions and input data options were chosen with the highest achievable accuracy being 73%.  A screenshot of the best model is shown in the screenshot below.  An activation function of ReLU was chosen for the hidden layers and an activation function of sigmoid for the output layer.    
+
+![parameters of best deep learning neural network](screenshots/neural_network1.png)
+
+When running the model the highest accuracy of 73% was achieved in a dozen or so epochs.  Hence, the model quickly converges and did not gain any accuracy regardless of the amount of epochs or number of nuerons chosen.  
+
+![accuracy and data loss of the best model](screenshots/neural_network2.png)
+
 * What steps did you take to try and increase model performance?
 
-![charity analysis](screenshots/neural_network1.png)
+
 
 
 ## Summary
