@@ -18,10 +18,7 @@ When running the model the highest accuracy of 73% was achieved in a dozen or so
 
 ![accuracy and data loss of the best model](screenshots/neural_network2.png)
 
-* What steps did you take to try and increase model performance?
-
-
-
+* In order to increase model performance a variety of changes were implemented to both the model and input features.  In regard to the model, the activation function were the hidden layers were changed from ReLU to Tanh and sigmoid.  In both cases the accuracy was slightly less, around 70%, than the original model.  Different numbers of hidden layers, e.g. hidden layer 1 = 30, hidden layer 2 = 20, were selected to see if this made a difference, but once again the accuracy decreased slightly.  In regard to changing the input features, removing the "SPECIAL_CONSIDERATIONS" and "APPLICATION_TYPE" data columns did not increase the accuracy of the model, with the end result being 70% accuracy.   
 
 ## Summary
-
+A deep neural network was used to predict which charity organization are most likely to end in a successful outcome.  A model employing a ReLU activation function in the hidden layers and a sigmoid activation function in the output layer yielded the most accurate result of 73%.  Modifying the input data and model parameters did not increase the accuracy and in all permutations the accuracy stayed around 70%.  
