@@ -4,9 +4,9 @@ Deep neural networks were used to help predict where to make investments.  A dat
 
 ## Results
 ### Data Preprocessing
-* What variable(s) are considered the target(s) for your model?
-* What variable(s) are considered to be the features for your model?
-* What variable(s) are neither targets nor features, and should be removed from the input data?
+* The "IS_SUCCESSFUL" column of data was the target of the model.  Ultimately, we want ot predict whether or not the money given to a charity organization is successfully used or not.  
+* The features of the model include "STATUS", "ASK_AMT", "APPLICATION_TYPE", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", and "INCOME_AMT".
+* The data which was neither a target nor a feature and which was ultimately dropped from the data included: "EIN" and "NAME".  These were identification data and were not relevant to making a prediction.  
 
 ### Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why?
